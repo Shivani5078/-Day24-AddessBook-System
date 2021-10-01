@@ -8,8 +8,8 @@ public class contacts {
 	private String address;
 	private String city;
 	private String state;
-	private long zip;
-	private long phonenumber;
+	private  String zip;
+	private String phonenumber;
 	private String   email;
 	protected String getFristname() {
 		return fristname;
@@ -41,16 +41,16 @@ public class contacts {
 	protected void setState(String state) {
 		this.state = state;
 	}
-	protected long getZip() {
+	protected String getZip() {
 		return zip;
 	}
-	protected void setZip(long zip) {
+	protected void setZip(String zip) {
 		this.zip = zip;
 	}
-	protected long getPhonenumber() {
+	protected String getPhonenumber() {
 		return phonenumber;
 	}
-	protected void setPhonenumber(long phonenumber) {
+	protected void setPhonenumber(String phonenumber) {
 		this.phonenumber = phonenumber;
 	}
 	protected String getEmail() {
